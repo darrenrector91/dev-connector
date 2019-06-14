@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb://admin:B00ne55428!@ds231377.mlab.com:31377/dev-connector",
+    "jwtSecret": "mysercrettoken"
+}
