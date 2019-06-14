@@ -1,14 +1,15 @@
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
 const ProfileSchema = new Schema({
   user: {
     type: Schema.Types.ObjectId,
     ref: 'users'
   },
-  handle: {
-    type: String,
-    required: true,
-    max: 40
-  },
   company: {
+    type: String
+  },
+  user: {
     type: String
   },
   website: {
@@ -92,19 +93,13 @@ const ProfileSchema = new Schema({
   ],
 
   social: {
-    youtube: {
+    github: {
       type: String
     },
     twitter: {
       type: String
     },
-    facebook: {
-      type: String
-    },
     linkedin: {
-      type: String
-    },
-    instagram: {
       type: String
     }
   },
