@@ -3,13 +3,10 @@ const Schema = mongoose.Schema;
 
 const ProfileSchema = new Schema({
   user: {
-    type: Schema.Types.ObjectId,
-    ref: 'users'
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'user'
   },
   company: {
-    type: String
-  },
-  user: {
     type: String
   },
   website: {
