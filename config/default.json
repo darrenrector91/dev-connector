@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb://admin:B00ne55428!@ds231377.mlab.com:31377/dev-connector",
-    "jwtSecret": "mysecrettoken"
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "b26813be0c377911f87e",
+    "githubSecret": "99c1dfe91fb092c812be2f03d0e30dc4afc53bcc"
 }
