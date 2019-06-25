@@ -98,6 +98,15 @@ const ProfileSchema = new Schema({
     },
     linkedin: {
       type: String
+    },
+    facebook: {
+      type: String
+    },
+    youtube: {
+      type: String
+    },
+    instagram: {
+      type: String
     }
   },
   date: {
